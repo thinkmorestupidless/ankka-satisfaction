@@ -6,8 +6,8 @@
 site_name: satisfactory
 site_description: Constraint solving as a service — submit a planning problem to a model, follow the stream of improving solutions, and receive the result by webhook. Built on Timefold Solver, deployed as ankka services.
 site_url: https://satisfactory.ankka.cloud/
-repo_url: https://github.com/thinkmorestupidless/satisfactory
-repo_name: thinkmorestupidless/satisfactory
+repo_url: https://github.com/thinkmorestupidless/ankka-satisfaction
+repo_name: thinkmorestupidless/ankka-satisfaction
 edit_uri: edit/main/docs/
 docs_dir: docs
 site_dir: target/docs-site
@@ -20,6 +20,10 @@ validation:
 
 theme:
   name: material
+  # The header is black in both schemes, so the logo is the white mark; the favicon sits on a tab bar
+  # and is the black one.
+  logo: assets/brand/ankka-satisfaction-mark-white-256.png
+  favicon: assets/brand/favicon.png
   features:
     - navigation.sections
     - navigation.indexes

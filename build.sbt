@@ -5,14 +5,14 @@ import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
 ThisBuild / scalaVersion := V.scala
 ThisBuild / organization := "com.thinkmorestupidless"
 // No `ThisBuild / version`: sbt-dynver derives it from the nearest tag, as ankka's build does.
-ThisBuild / homepage     := Some(url("https://github.com/thinkmorestupidless/satisfactory"))
+ThisBuild / homepage     := Some(url("https://github.com/thinkmorestupidless/ankka-satisfaction"))
 ThisBuild / licenses     := List("Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
 ThisBuild / versionScheme := Some("early-semver")
 ThisBuild / developers := List(
   Developer("thinkmorestupidless", "Trevor Burton-McCreadie", "", url("https://github.com/thinkmorestupidless"))
 )
 ThisBuild / scmInfo := Some(
-  ScmInfo(url("https://github.com/thinkmorestupidless/satisfactory"), "scm:git@github.com:thinkmorestupidless/satisfactory.git")
+  ScmInfo(url("https://github.com/thinkmorestupidless/ankka-satisfaction"), "scm:git@github.com:thinkmorestupidless/ankka-satisfaction.git")
 )
 
 /**
