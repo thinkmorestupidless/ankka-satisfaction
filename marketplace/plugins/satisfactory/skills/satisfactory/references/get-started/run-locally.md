@@ -24,8 +24,8 @@ Clone the repository, create the database with ankka's schema, and start the API
 key:
 
 ```bash
-git clone https://github.com/thinkmorestupidless/satisfactory
-cd satisfactory
+git clone https://github.com/thinkmorestupidless/ankka-satisfaction
+cd ankka-satisfaction
 sbt schema && docker compose up -d
 SAT_BOOTSTRAP_KEY=sk_dev sbt api/run
 ```

@@ -4,7 +4,7 @@
   "description": "The satisfactory documentation as skills — the service and its API, the Scala client, using it from an ankka application, and writing a model.",
   "author": {
     "name": "thinkmorestupidless",
-    "url": "https://github.com/thinkmorestupidless/satisfactory"
+    "url": "https://github.com/thinkmorestupidless/ankka-satisfaction"
   },
   "homepage": "https://satisfactory.ankka.cloud/",
   "repository": "https://github.com/thinkmorestupidless/ankka-marketplace",

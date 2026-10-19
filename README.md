@@ -1,4 +1,7 @@
-# satisfactory
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/ankka-satisfaction-lockup-white.png">
+  <img src="docs/assets/brand/ankka-satisfaction-lockup-black.png" alt="ankka-satisfaction" width="400">
+</picture>
 
 Constraint solving as a service, built on [Timefold Solver](https://github.com/TimefoldAI/timefold-solver)
 and deployed as [ankka](../ankka) services. Submit a planning problem, get back a solution — or
