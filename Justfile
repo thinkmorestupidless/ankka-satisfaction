@@ -31,3 +31,7 @@ docs-sync:
 # The site with live reload, while writing
 docs-serve:
     uv run --project tools/docs docs serve
+
+# The living features, the glossary and the specs that name them.
+check:
+    uvx --from "git+https://github.com/thinkmorestupidless/speckit-bdd@v0.2.0#subdirectory=checker" speckit-bdd check --root . --glossary GLOSSARY.md --features features --specs specs --specs-from 002
